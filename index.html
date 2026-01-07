@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quick Chat</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.PNG">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <aside class="col-lg-3">
+
+                <div class="left_pan mt-4 ">
+                    <a class="text-decoration-none" href="#">
+                        <div class="d-flex align-items-center">
+                            <img src="assets/images/logo.PNG" alt="no image found">
+                            <h4 class="mb-0 ms-2 text-dark">QuickChat</h4>
+
+                        </div>
+                    </a>
+
+                    <div class="card text-center align-items-center start_card my-3 rounded-3">
+                        <img src="assets/images/face.jpg" class="w-25 mt-4 rounded-circle" alt="no image">
+                        <div class="card-body lh-lg ">
+                            <h5 class="mb-0 person">Bill Bradford <a href="#" class="text-decoration-none"><i
+                                        class="fa-sharp fa-solid fa-gear text-black fs_18"></i></a></h5>
+                            <p class="mb-0 designation">Lead UX/UI Designer</p>
+                            <div class="form-check form-switch d-flex align-items-center justify-content-center ms-1">
+                                <input class="form-check-input " type="checkbox" role="switch" id="activecheck" checked>
+                                <label class="form-check-label pt-1 ps-2" for="activecheck">Active</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordian_main mt-2">
+                        <div class="accordion overflow-auto" id="accordionExample">
+                            <div class="accordion-item  border border-0">
+                                <h2 class="accordion-header " id="headingOne">
+                                    <button class="accordion-button ps-0 p-3 h4 mb-0" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Active Conversation <span class="badge text-bg-secondary ms-2">4</span>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+
+                                        <div class="list-group border border-0">
+
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face2.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Henry Boyd</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Martha Curtis </span><span
+                                                    class="badge text-bg-danger rounded-circle ms-4">4</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face3.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Phillips Tucker</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face4.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Christen Ried</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center ">
+                                                <img src="assets/images/face5.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Jerry Guzman</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center ">
+                                                <img src="assets/images/face6.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Russell Williams</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="accordian_main">
+                        <div class="accordion" id="accordionExample2">
+                            <div class="accordion-item  border border-0">
+                                <h2 class="accordion-header " id="heading2">
+                                    <button class="accordion-button ps-0 p-3 h4 mb-0" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Achieved Conversation <span class="badge text-bg-secondary ms-2">7</span>
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body p-0">
+
+                                        <div class="list-group border border-0">
+
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face2.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Henry Boyd</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Martha Curtis </span><span
+                                                    class="badge text-bg-danger rounded-circle ms-4">4</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Phillips Tucker</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center">
+                                                <img src="assets/images/face5.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Christen Ried</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center ">
+                                                <img src="assets/images/face4.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Jerry Guzman</span>
+                                            </button>
+                                            <button type="button"
+                                                class="list-group-item list-group-item-action border border-0 ps-2 px-0 mt-1 d-flex align-items-center ">
+                                                <img src="assets/images/face6.jpg" class="rounded-circle" alt="no image"
+                                                    width="20%">
+                                                <span class="h6 mb-0 ms-3">Russell Williams</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </aside>
+
+            <aside class="col-lg-6">
+                <div class="center_pan rounded-4 mt-4 top-0 w-100">
+                    <ul class="list-group border border-0">
+
+                        <!-- Sended -->
+                        <li
+                            class="list-group-item border border-0 mt-3 text-end bg-transparent d-flex justify-content-end">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 send_chat text-white">
+                                Hi Henry!</p>
+                            <img src="assets/images/face2.jpg" alt="no image" width="9%" class="rounded-circle">
+                        </li>
+
+                        <!-- Sended -->
+                        <li
+                            class="list-group-item border border-0 mt-3 text-end bg-transparent d-flex justify-content-end">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 send_chat text-white">
+                                How can I help you today?!</p>
+                            <img src="assets/images/face2.jpg" alt="no image" width="9%" class="rounded-circle">
+                        </li>
+
+                        <!-- Received -->
+                        <li
+                            class="list-group-item border border-0 mt-3 bg-transparent d-flex d-flex justify-content-start">
+                            <img src="assets/images/face.jpg" alt="no image" width="9%" class="rounded-circle">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 bg-white text-dark">
+                                I am fine , I need your help bro !</p>
+
+                        </li>
+
+                        <!-- Sended -->
+                        <li
+                            class="list-group-item border border-0 mt-3 text-end bg-transparent d-flex justify-content-end">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 send_chat text-white">
+                                I am always here to help !</p>
+                            <img src="assets/images/face2.jpg" alt="no image" width="9%" class="rounded-circle">
+
+                        </li>
+
+                        <!-- Received -->
+                        <li
+                            class="list-group-item border border-0 mt-3 bg-transparent d-flex d-flex justify-content-start">
+                            <img src="assets/images/face.jpg" alt="no image" width="9%" class="rounded-circle">
+                            <p class="badge text-wrap text-black mb-0 fs_14 fw-normal mx-2 p-3 bg-white text-dark">
+                                The Project is to lengthy and it is based on Android Based Application, a single bug
+                                do a lot of damage !</p>
+
+                        </li>
+                        <!-- Sended -->
+                        <li
+                            class="list-group-item border border-0 mt-3 text-end bg-transparent d-flex justify-content-end">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 send_chat text-white">
+                                Lemme Check by checking your code . You pushed it on github?</p>
+                            <img src="assets/images/face2.jpg" alt="no image" width="9%" class="rounded-circle">
+                        </li>
+
+                        <!-- Sended -->
+                        <li
+                            class="list-group-item border border-0 mt-3 text-end bg-transparent d-flex justify-content-end">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 send_chat text-white">
+                                is it private or public?</p>
+                            <img src="assets/images/face2.jpg" alt="no image" width="9%" class="rounded-circle">
+                        </li>
+
+                        <!-- Received -->
+                        <li
+                            class="list-group-item border border-0 mt-3 bg-transparent d-flex d-flex justify-content-start">
+                            <img src="assets/images/face.jpg" alt="no image" width="9%" class="rounded-circle">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 bg-white text-dark">
+                                Yes it is all public . check it and lemme know !</p>
+
+                        </li>
+
+                        <!-- Sended -->
+                        <li
+                            class="list-group-item border border-0 mt-3 text-end bg-transparent d-flex justify-content-end">
+                            <p
+                                class="badge text-wrap text-black mb-0 fs_14 fw-normal text-break mx-2 p-3 send_chat text-white">
+                                My internet is slow and not responsding this time.</p>
+                            <img src="assets/images/face2.jpg" alt="no image" width="9%" class="rounded-circle">
+
+                        </li>
+
+                        <!-- Received -->
+                        <li
+                            class="list-group-item border border-0 mt-3 bg-transparent d-flex d-flex justify-content-start">
+                            <img src="assets/images/face.jpg" alt="no image" width="9%" class="rounded-circle">
+                            <p class="badge text-wrap text-black mb-0 fs_14 fw-normal mx-2 p-3 bg-white text-dark">
+                               Alright! Check it later and let me know when you find the bug</p>
+
+                        </li>
+
+                    </ul>
+                    <div class="position-sticky bottom-0 w-100 ">
+
+                        <div class="m-3 p-3 bg-white rounded-3 pb-1">
+                            <div class="image-upload d-flex">
+                                <label for="file-input" class="pt-2">
+                                    <i class="fa-solid fa-paperclip"></i>
+                                </label>
+                                <input id="file-input" type="file" />
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control rounded mx-3"
+                                        placeholder="Enter Your Message Here">
+                                    <button class="btn btn-primary rounded">Send <i
+                                            class="fa-regular fa-paper-plane-top"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </aside>
+
+            <aside class="col-lg-3">
+
+                <div class="right_pan">
+
+                    <div class="card align-items-center right_card mt-4 rounded-4">
+                        <h5 class="hb rounded-circle mt-3">HB</h5>
+                        <div class="card-body lh-lg info pt-2">
+                            <p class="mb-0 fs_16" style="color: #92A1AD;"><i
+                                    class="fa-regular fa-envelope me-2 text-dark"></i>taimoorali314@gmail.com</p>
+                            <p class="mb-0 fs_16" style="color: #92A1AD;"><i
+                                    class="fa-regular fa-user text-dark me-2"></i>Taimoor
+                                Ali</p>
+                            <div class="text-center">
+                                <button class="btn btn-outline-primary archive_btn bg-white">Archive<i
+                                        class="fa-sharp fa-solid fa-box-archive ms-2"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card right_card mt-4 rounded-4">
+
+                        <div class="row text-center">
+                            <div class="col-lg-6 col-md-6 p-2">
+
+                                <div class="d-flex align-items-center justify-content-center rounded-3 info2 Time">
+                                    <i class="fa-regular fa-clock rounded-circle"></i>
+                                    <div class="lh-1 ms-2">
+                                        <h5 class="m-0">13h</h5>
+                                        <p class="m-0 text-secondary">Time</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-6 p-2">
+
+                                <div class="d-flex align-items-center justify-content-center rounded-3 info2 Attended">
+                                    <i class="fa-solid fa-user rounded-circle p-2"></i>
+                                    <div class="lh-1 ms-2">
+                                        <h5 class="m-0">188</h5>
+                                        <p class="m-0 text-secondary">Attended</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-6 p-2">
+
+                                <div class="d-flex align-items-center justify-content-center rounded-3 info2 meetings">
+                                    <i class="fa-solid fa-calendar-days rounded-circle"></i>
+                                    <div class="lh-1 ms-2">
+                                        <h5 class="m-0">199</h5>
+                                        <p class="m-0 text-secondary">Meetings</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-6 p-2">
+
+                                <div class="d-flex align-items-center justify-content-center rounded-3 info2 Rejected">
+                                    <i class="fa-solid fa-ban"></i>
+                                    <div class="lh-1 ms-2">
+                                        <h5 class="m-0">41</h5>
+                                        <p class="m-0 text-secondary">Rejected</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card align-items-center right_card mt-4 rounded-4 text-center p-5">
+
+                        <h4>Onboard Clients</h4>
+                        <p class="mb-0 fs_16" style="color: #92A1AD;">Share the link with prospects and discuss all stuff</p>
+                            <div class="pt-2">
+                                <button class="btn btn-primary ">
+                                    Copy Link <i class="fa-solid fa-link"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </aside>
+        </div>
+
+
+
+
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
